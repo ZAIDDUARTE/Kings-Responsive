@@ -79,11 +79,27 @@
         Your browser does not support the video tag.
     </video> -->
     <div class="container">
-        <div class="row">
+        <div class="row opacity-100">
             <div class="col-12 text-center hero-content">
                 <h1 class="hero-heading">Cast away</h1>
                 <p class="hero-subheading">find yourself at sea</p>
                 <button class="hero-button btn btn-primary">Learn More</button>
+                <style>
+                    /* Media query for devices below md size */
+        @media (max-width: 768px) {
+            .hero-heading {
+                font-size: 4rem;
+                
+            }
+            .hero-subheading {
+                font-size: 1.5rem;
+            }
+            .hero-button {
+                font-size: 0.8rem;
+                padding: 5px 10px;
+            }
+        }
+                </style>
             </div>
         </div>
     </div>
